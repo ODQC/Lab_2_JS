@@ -50,7 +50,7 @@ table {
     font-family: 'Georgia', serif;
     font-size: 65px;
     margin-top: 140px;
-    color: #fae4c2;
+    color: #ffffff;
 }
 .sidenav {
     height: 100%;
@@ -68,7 +68,7 @@ table {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #000000;
     display: block;
     transition: 0.3s
 }
@@ -95,13 +95,20 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: #0c1055;
     font-size: 46px;
     font-family: 'Georgia', serif;
     font-weight: 300;
 }
+.header-99 {
+    color: #ffffff;
+    font-size: 46px;
+    font-family: 'Georgia', serif;
+    font-weight: 300;
+}
+
 .header-p {
-    color: #9699a6;
+    color: #000000;
     font-size: 16px;
 }
 .msg-row {
@@ -124,13 +131,13 @@ table {
     margin-top: 18px;
 }
 .bg-1 {
-    background-color: #fecc17;
+    background-color: #0c1055;
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 .bg-14 {
-    background-color: #ccdb38;
+    background-color: #0c1055;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -141,7 +148,7 @@ table {
     margin-top: 0;
 }
 .light-blue {
-    color: #9699a6;
+    color: #000000;
     font-size: 16px;
     margin-bottom: 1px;
 }
@@ -193,7 +200,7 @@ table {
     height: auto;
 }
 .contacts-btn {
-    background-color:  #FFB03B !important;
+    background-color: #0c1055 !important;
     color: #ffffff !important;
     width: 170px;
     height: 54px;
@@ -248,7 +255,7 @@ table {
 
 .heading{
     font-family: 'Georgia', sans-serif;
-    color: #FFB03B;
+    color: #0c1055;
     font-size: 24px;
 }
 .marb-35{
@@ -259,7 +266,7 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: #0c1055;
 }
 #about img
 {
@@ -287,13 +294,13 @@ table {
     overflow: auto;
 }
 .content-holder h2 {
-    color: #FFB03B;
+    color: #ffffff;
     font-size: 32px;
     padding-bottom: 15px;
     font-family: 'Georgia', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: #0c1055;
     padding: 10px 0px;
 }
 .details-text p {
@@ -303,7 +310,7 @@ table {
     font-weight: 300;
 }
 .btn-read-more {
-    background: #FFB03B;
+    background: #0c1055;
     padding: 7px 19px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -333,7 +340,7 @@ table {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: #0c1055;
 }
 .menu-restaurant .menu-line {
     position: absolute;
@@ -351,7 +358,7 @@ table {
 .menu-restaurant .menu-subtitle {
     display: block;
     float: left;
-    color: #B1B1B1;
+    color: #494949;
     font-family: georgia,'Open Sans',arial;
     font-size: 1.2rem;
 }
@@ -360,9 +367,9 @@ table {
     display: block;
 }
 .gallery-trigger ul li a.active, .gallery-trigger ul li a:hover {
-    background: #FFB03B;
+    background: #0c1055;
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid #0c1055;
 }
 .gallery-trigger ul li {
     display: inline-block;
@@ -404,7 +411,7 @@ table {
     padding-bottom: 20px;
     font-family: 'georgia', sans-serif;
     font-size: 44px;
-    color: #FFB03B;
+    color: #ffffff;
 }
 .footer .widget, .footer address {
     color: #999;
@@ -440,7 +447,7 @@ table {
 @media (min-width: 451px) and (max-width: 767px) {
     .details-text {
         border:0px;
-        border-bottom: 2px solid #A87F41;
+        border-bottom: 2px solid #0c1055;
     }
 }
 @media (min-width: 20px) and (max-width: 450px) {
@@ -449,7 +456,7 @@ table {
     }
     .details-text {
         border:0px;
-        border-bottom: 2px solid #A87F41;
+        border-bottom: 2px solid #0c1055;
     }
     .header-h {
         font-size: 35px;

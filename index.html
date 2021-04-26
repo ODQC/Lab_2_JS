@@ -87,8 +87,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-center" style="padding:60px;">
-                        <h1 class="header-h">Eventos en vivo</h1>
-                        <p class="header-p">Decorations 100% complete here</p>
+                        <h1 class="header-99">Eventos en vivo</h1>
+                        <p class="header-99">Decorations 100% complete here</p>
                     </div>
                     <div class="col-md-12" style="padding-bottom:60px;">
                         <div class="item active left">
@@ -123,131 +123,187 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center marb-35">
-                    <h1 class="header-h">Menú</h1>
-                    <p class="header-p">A continuación, le presentamos nuestro catálogo de platillos seleccionados
+                    <h1 class="header-h">Menu</h1>
+                    <p class="header-p">
+                        A continuación, le presentamos nuestro catálogo de platillos seleccionados
                         minuciosamente para que deguste de la
                         verdadera comida italiana.
-
                     </p>
                 </div>
-                <div class="col-md-12  text-center gallery-trigger">
+
+                <div class="col-md-12  text-center gallery-trigger" id="menu-flters">
                     <ul>
-                        <li><a class="filter" data-filter="all">Bebidas</a></li>
-                        <li><a class="filter" data-filter=".category-1">Entradas</a></li>
-                        <li><a class="filter" data-filter=".category-2">Plato principal</a></li>
-                        <li><a class="filter" data-filter=".category-3">Postres</a></li>
+                        <li><a class="filter active" data-filter=".menu-restaurant">Todo</a></li>
+                        <li><a class="filter" data-filter=".P_Entrada">Antipasti (Entradas)</a></li>
+                        <li><a class="filter" data-filter=".P_Principal">Primo piato (Primer plato)</a></li>
+                        <li><a class="filter" data-filter=".P_Postre">Dessert (Postre)</a></li>
+                        <li><a class="filter" data-filter=".Vinos">Vinos</a></li>
                     </ul>
                 </div>
-                <div id="Container">
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
+
+                <div id="menu-wrapper">
+                    <div class="Vinos menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Romano Dal
+                                Forno </a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$20.99</span>
+                        </span>
+                        <span class="menu-subtitle">Amarone della Valpolicella</span>
+                    </div>
+
+                    <div class="Vinos menu-restaurant">
+                        <span class="clearfix">
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Roccolo
+                                Grassi</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$20.99</span>
+                        </span>
+                        <span class="menu-subtitle">Amarone della Valpolicella</span>
+                    </div>
+
+                    <div class="Vinos menu-restaurant">
+                        <span class="clearfix">
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Barbera
+                                d’Alba</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$20.99</span>
+                        </span>
+                        <span class="menu-subtitle">Roberto Voerzio Riserva Pozzo dell’Annunziata</span>
+                    </div>
+
+                    <div class="Vinos menu-restaurant">
+                        <span class="clearfix">
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Barolo/Barbaresco</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$20.99</span>
+                        </span>
+                        <span class="menu-subtitle">Bruno Giacosa Barolo Le Rocche del Falletto</span>
+                    </div>
+
+                    <div class="Vinos menu-restaurant">
+                        <span class="clearfix">
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Brunello di Montalcino</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$20.99</span>
+                        </span>
+                        <span class="menu-subtitle">Ciacci Piccolomini d’Aragona Pianorosso</span>
+                    </div>
+
+                    <div class="Vinos menu-restaurant">
+                        <span class="clearfix">
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chianti y Chianti Classico de Piamonte</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$20.99</span>
+                        </span>
+                        <span class="menu-subtitle">San Felice II Grigio Gran Selezione</span>
+                    </div>
+
+                    <div class="P_Entrada menu-restaurant">
+                        <span class="clearfix">
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Ribollita Y Pappa Al Pomodoro</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
                         <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
                     </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Entrada menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Panzanella</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">La Panzanella, que consta de tomate picado, un poco de pan duro, cebolla, albahaca, aceite de oliva y vinagre.</span>
                     </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Entrada menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Tagliata Con Rucola</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">La tagliata es otro plato de carne muy típico de Florencia: es un corte de carne de buey que se asa y luego se corta en
+                        tiras, se le añade rúcula (un tipo de ensalada), romero, escamas de que parmesano, aceite y pimienta.</span>
                     </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Entrada menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Pappardelle Al Sugo Di Lepre</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">(Pappardelle Con Salsa De Liebre)</span>
                     </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Principal menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Bistecca Alla Fiorentina</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">Bistec de vacuno bien grueso, que se hace a la parrilla
+                        y se sirve poco hecho por dentro.
+</span>
                     </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Principal menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Pappa al Pomodoro</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">Lleva también tomates, ajo, aceite y albahaca.</span>
                     </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Principal menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Pappardelle al Cinghiale</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">Salsa se prepara a fuego lento, con hierbas típicas mediterráneas.</span>
                     </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Principal menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Coniglio in umido</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">Guiso de conejo súper tierno. Se sirve con la salsita (el umido) de tomate y sofrito.</span>
                     </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Postre menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Castagnaccio</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">Esta deliciosa tarta está hecha con harina de castañas, y puede llevar también piñones o pasas. Es un dulce muy típico
+                        también para comer en Lucca.</span>
                     </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Postre menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Schiacciata con l’uva</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">Esta especie de focaccia dulce, muy típica de Florencia, no lleva más que las uvas, aceite de oliva y azúcar. Ideal para
+                        merendar.</span>
                     </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
+
+                    <div class="P_Postre menu-restaurant">
                         <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
+                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Pan di Ramerino</a>
                             <span style="left: 166px; right: 44px;" class="menu-line"></span>
                             <span class="menu-price">$20.99</span>
                         </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                            <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item
-                                Name</a>
-                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                            <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                        <span class="menu-subtitle">Panecillos dulces con uvas sultanas (pasas) y romero.</span>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -265,27 +321,17 @@
             </div>
             <div class="row msg-row">
                 <div class="col-md-4 col-sm-4 mr-15">
-                    <div class="media-2">
-                        <div class="media-left">
-                            <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span>
-                            </div>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="dark-blue regular">Phone Numbers</h4>
-                            <p class="light-blue regular alt-p">+440 875369208 - <span class="contacts-sp">Phone
-                                    Booking</span></p>
-                        </div>
-                    </div>
+                   
                     <div class="media-2">
                         <div class="media-left">
                             <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span>
                             </div>
                         </div>
                         <div class="media-body">
-                            <h4 class="dark-blue regular">Opening Hours</h4>
-                            <p class="light-blue regular alt-p"> Monday to Friday 09.00 - 24:00</p>
+                            <h4 class="dark-blue regular">Horario</h4>
+                            <p class="light-blue regular alt-p">Lunes a Jueves de 6:00pm - 9:00pm</p>
                             <p class="light-blue regular alt-p">
-                                Friday and Sunday 08:00 - 03.00
+                                Viernes a Domingo 6:00pm - 10.00pm
                             </p>
                         </div>
                     </div>
@@ -387,7 +433,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="contactform/contactform.js"></script>
+    <script src="js/funcionalidad.js"></script>
 
 </body>
 
